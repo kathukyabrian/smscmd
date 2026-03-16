@@ -17,3 +17,8 @@ smscmd <phonenumber> "message content"
 - Tiara Connect connects to the telco and submits the short message.
 - The telco will then deliver the short message to the mobile handset.
 - Just 2 hops and the message is there - and the good news: _Binary protocols only!_
+
+## System Flow
+- The client will establish a bind with Tiara Connect
+- Through the established bind, the client will attempt to submit a short message
+- The connection configuration shall reside in __config.properties__ file.
