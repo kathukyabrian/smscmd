@@ -1,5 +1,0 @@
-smpp_host = "smpp.tiaraconnect.io:9056"
-system_id = "kitun396"
-password = "1rea4pok"
-sender_id = "TIARACONECT"
-system_type = "SMPP"
