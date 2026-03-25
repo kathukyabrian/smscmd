@@ -157,3 +157,31 @@ Connection State:
   - state machine
   - buffers
 
+# Concepts to learn
+- core rust
+  - ownership and borrowing
+  - structs + enums
+  - error handling
+- systems programming fundamentas
+  - file descriptors
+  - system calls
+  - non blocking I/O
+- event driven architecture
+  - epoll
+  - event loop design
+- buffer management
+  - byte buffers
+  - partial data handling
+- state machines
+- networking fundamentals
+- binary protocol handling
+- os level APIs in Rust
+
+## Recommended Steps
+1. Rust basics (ownership, structs, enums)
+1. Write a blocking TCP client
+1. Convert it to non-blocking (WouldBlock)
+1. Add epoll event loop
+1. Handle multiple messages
+1. Implement simple binary protocol
+1. Finally → SMPP
